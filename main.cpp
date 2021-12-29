@@ -19,7 +19,34 @@ void setup()
 void draw()
 {
   system("cls");
-  
+  for (int i=0;i<width;i++)
+  {
+    cout<<"-";
+  }
+  cout<<"\n";
+  for (int i=0;i<height;i++)
+  {
+    for (int j=0;j<width;j++)
+    {
+      if (j==0)
+      {
+        cout<<"|";
+      }
+      else
+      {
+        cout<<" ";
+      }
+      if (j==width)
+      {
+        cout<<"|";
+      }
+    }
+  }
+   for (int i=0;i<width;i++)
+  {
+    cout<<"-";
+  }
+  cout<<"\n";
 
 
 }
